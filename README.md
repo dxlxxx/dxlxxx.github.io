@@ -1,19 +1,27 @@
 ---
 home: true
 modules:
-  - BannerBrand
+  - Banner
   - Blog
   - MdContent
   - Footer
-bannerBrand:
+banner:
   heroText: 手握明月摘星辰，世间无我这般人
+  tagline: Enjoy when you can, and endure when you must.
+  heroImage: /logo.png
+  heroImageStyle:
+    maxWidth: 200px
+    margin: 0 auto 2rem
   bgImage: "/bg.svg"
   bgImageStyle:
     height: 550px
 blog: # blog 模块的配置
   socialLinks: # 社交 icon 请到 [Xions](https://www.xicons.org/#/zh-CN) 页面的 tabler 下获取，复制名称即可
     - { icon: "BrandGithub", link: "https://github.com/dxlxxx" }
-    - { icon: "BrandTwitter", link: "http://wpa.qq.com/msgrd?v=3&uin=1271704084&site=qq&menu=yes" }
+    - {
+        icon: "BrandTwitter",
+        link: "http://wpa.qq.com/msgrd?v=3&uin=1271704084&site=qq&menu=yes",
+      }
 footer: # 底部模块的配置
   startYear: 2022
 isShowTitleInHome: true
