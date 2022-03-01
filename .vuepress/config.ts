@@ -22,13 +22,19 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: "Js",
           children: ["js"],
         },
+        {
+          text: "Array",
+          children: ["array"],
+        },
+        {
+          text: "String",
+          children: ["string"],
+        },
+        {
+          text: "ES6-ES12",
+          children: ["es6"]
+        }
       ],
-    },
-    // 评论
-    valineConfig: {
-      appId: "s5kVQQUNHaTDD3R1SnGBM320-gzGzoHsz", // your appId
-      appKey: "oy4zXXFskrlklyiigoe7FcnP", // your appKey
-      hideComments: false, // 全局隐藏评论，默认 false
     },
     navbar: [
       { text: "首页", link: "/" },
@@ -63,15 +69,15 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     ],
     // valineConfig 配置与 1.x 一致
-    // valineConfig: {
-    //   appId: 'xxx',
-    //   appKey: 'xxx',
-    //   placeholder: '填写邮箱可以收到回复提醒哦！',
-    //   verify: true, // 验证码服务
-    //   // notify: true,
-    //   recordIP: true,
-    //   // hideComments: true // 隐藏评论
-    // },
+    valineConfig: {
+      appId: "s5kVQQUNHaTDD3R1SnGBM320-gzGzoHsz",
+      appKey: "oy4zXXFskrlklyiigoe7FcnP",
+      placeholder: "填写邮箱可以收到回复提醒哦！",
+      verify: true, // 验证码服务
+      notify: true,
+      recordIP: true,
+      // hideComments: true // 隐藏评论
+    },
   },
   // debug: true,
 });
