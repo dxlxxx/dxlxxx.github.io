@@ -43,30 +43,23 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: [
           {
             text: "js",
-            link: "/categories/reco/1/",
+            link: "/categories/js/1/",
           },
           {
             text: "css",
-            link: "/categories/reco/1/",
+            link: "/categories/css/1/",
           },
           {
             text: "vue",
-            link: "/categories/reco/1/",
+            link: "/categories/vue/1/",
           },
           {
             text: "react",
-            link: "/categories/reco/1/",
+            link: "/categories/react/1/",
           },
         ],
       },
-      { text: "Tags", link: "/tags/tag1/1/" },
-      {
-        text: "Docs",
-        children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
-        ],
-      },
+      { text: "Tags", link: "/tags/Js/1/" },
     ],
     // valineConfig 配置与 1.x 一致
     valineConfig: {
