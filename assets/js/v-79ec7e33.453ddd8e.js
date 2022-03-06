@@ -1,1 +1,0 @@
-"use strict";exports.id=829,exports.ids=[829],exports.modules={1274:(e,t,a)=>{a.r(t),a.d(t,{data:()=>r});const r={key:"v-79ec7e33",path:"/categories/ajax/1/",title:"",lang:"en-US",frontmatter:{layout:"Categories"},excerpt:"",headers:[],git:{},filePathRelative:null}},6005:(e,t,a)=>{a.r(t),a.d(t,{default:()=>s});const r={},s=(0,a(3744).Z)(r,[["ssrRender",function(e,t,a,r){}]])}};
